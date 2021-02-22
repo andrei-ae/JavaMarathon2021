@@ -6,11 +6,7 @@ public class Task2 {
         int needCount = 10;
 
         for (int i = 1; i <= needCount; i++) {
-            System.out.print(word);
-
-            if (i < needCount) {
-                System.out.print(" ");
-            }
+            System.out.print(word + " ");
         }
     }
 }
