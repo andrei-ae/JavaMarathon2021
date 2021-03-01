@@ -38,13 +38,10 @@ public class Airplane {
         this.fuel = fuel;
     }
 
-    public void info() {
-        System.out.println(getInfoString());
-    }
-
     @Override
     public String toString() {
-        return getInfoString();
+        return "Изготовитель: " + this.producer + ", год выпуска: " + this.year
+                + ", длина: " + this.length + ", вес: " + this.weight + ", количество топлива в баке: " + this.fuel;
     }
 
     public void fillUp(int n) {
@@ -61,10 +58,5 @@ public class Airplane {
         } else {
             System.out.println("Длины самолетов равны");
         }
-    }
-
-    private String getInfoString() {
-        return "Изготовитель: " + this.producer + ", год выпуска: " + this.year
-                + ", длина: " + this.length + ", вес: " + this.weight + ", количество топлива в баке: " + this.fuel;
     }
 }

@@ -6,8 +6,5 @@ public class Task2 {
 
         System.out.println("Вывод через println():");
         System.out.println(airplane);
-
-        System.out.println("\nВывод через info():");
-        airplane.info();
     }
 }
