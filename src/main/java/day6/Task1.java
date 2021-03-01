@@ -12,6 +12,5 @@ public class Task1 {
 
         System.out.println("Разница между годами для автомобиля: " + car.yearDifference(2021));
         System.out.println("Разница между годами для мотоцикла: " + bike.yearDifference(2017));
-
     }
 }
